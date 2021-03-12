@@ -17,8 +17,8 @@ The error can be worked around by disabling parallelism. Parallelism can be
 disabled by adding xunit.runner.json to test test project containing:
 
     {
-    "parallelizeAssembly": false,
-    "parallelizeTestCollections": false
+        "parallelizeAssembly": false,
+        "parallelizeTestCollections": false
     }
 
 And referencing the file in the test .csproj using the following:
